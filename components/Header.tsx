@@ -14,7 +14,7 @@ const Header = () => {
             <div className='main-container inner'>
                 <Link href='/'>
                     <Image
-                        src='logo.svg'
+                        src='/logo.svg'
                         alt='Coinvyc logo'
                         width={162}
                         height={60}
