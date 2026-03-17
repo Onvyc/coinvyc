@@ -6,7 +6,8 @@ import {CoinOverviewFallback, TrendingCoinsFallback} from "@/components/home/Fal
 
 const Page= async () => {
 
-    return <main className='main-container'>
+    return(
+    <main className='main-container'>
         <section className='home-grid'>
             <Suspense fallback={<CoinOverviewFallback/>}>
                 <CoinOverview />
@@ -21,5 +22,6 @@ const Page= async () => {
             <p>Categories</p>
         </section>
     </main>
+    )
 }
 export default Page
